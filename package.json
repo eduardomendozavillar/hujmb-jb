@@ -1,6 +1,6 @@
 {
     "title": "SB Admin 2",
-    "name": "startbootstrap-sb-admin-2",
+    "name": "hj-admin",
     "version": "4.1.3",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
@@ -14,11 +14,12 @@
         "theme",
         "template",
         "admin",
+     
         "app"
     ],
     "homepage": "https://startbootstrap.com/theme/sb-admin-2",
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-sb-admin-2/issues",
+        "url": "https://github.com/StartBootstrap/hj-admin/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
@@ -28,7 +29,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-sb-admin-2.git"
+        "url": "https://github.com/StartBootstrap/hj-admin.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.15.3",
