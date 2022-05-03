@@ -50,16 +50,16 @@
                                                 id="exampleInputEmail" aria-describedby="emailHelp"
                                                 placeholder="Email ...">
                                         </div>
-                                        <a href="login.html" class="btn btn-primary btn-user btn-block">
+                                        <a href="/login.php" class="btn btn-primary btn-user btn-block">
                                             Restablecer la contraseña
                                         </a>
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small" href="register.html">¡Crea una cuenta!</a>
+                                        <a class="small" href="/register.php">¡Crea una cuenta!</a>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="login.html">¿Ya tienes una cuenta? ¡Acceso!</a>
+                                        <a class="small" href="/login.php">¿Ya tienes una cuenta? ¡Acceso!</a>
                                     </div>
                                 </div>
                             </div>

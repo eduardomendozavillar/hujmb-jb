@@ -40,9 +40,12 @@
                                 <div class="p-5">
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">
-                                            ¡Bienvenido A HUJMB</h1>
+                                            ¡Docencia - Servicio¡</h1>
+                                            <h2 class="h4 text-gray-900 mb-4">
+                                                HUJMB
+                                            </h2>
                                     </div>
-                                    <form class="user">
+                                    <form  class="user">
                                         <div class="form-group">
                                             <input type="email" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp"
@@ -51,30 +54,34 @@
                                         <div class="form-group">
                                             <input type="password" class="form-control form-control-user"
                                                 id="exampleInputPassword" placeholder="Contraseña">
-                                        </div>
+                                        </div>  
+                                        <div class="form-group">
+                                            <label class="col-sm-12 text-left">Seleccionar tipo de usuario:</label>
+                                            <div class="col-sm-12">
+                                            <select class="form-control" name="role">
+                                            <option value=" " selected="selected">Interno</option>                                                    
+                                            <option value="">Administrador</option>
+                                            </select>
+                                            </div>
+                                          </div>
                                         <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
                                                 <input type="checkbox" class="custom-control-input" id="customCheck">
                                                 <label class="custom-control-label" for="customCheck">Recuérdame</label>
                                             </div>
                                         </div>
-                                        <a href="index.html" class="btn btn-primary btn-user btn-block">
+                                        <a href="hj-admin/index.php" class="btn btn-primary btn-user btn-block">
                                             Acceso
                                         </a>
                                         <hr>
-                                        <a href="index.html" class="btn btn-google btn-user btn-block">
-                                            <i class="fab fa-google fa-fw"></i> Regístrese con Google
-                                        </a>
-                                        <a href="index.html" class="btn btn-facebook btn-user btn-block">
-                                            <i class="fab fa-facebook-f fa-fw"></i> Regístrese con Facebook
-                                        </a>
+                                       
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small" href="forgot-password.html"> ¿Has olvidado tu contraseña?</a>
+                                        <a class="small" href="/forgot-password.php"> ¿Has olvidado tu contraseña?</a>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="register.html"> ¡Crea una cuenta!</a>
+                                        <a class="small" href="/register.php"> ¡Crea una cuenta!</a>
                                     </div>
                                 </div>
                             </div>
